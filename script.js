@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (usuarioInput !== usuarioGuardado || passwordInput !== passwordGuardado) {
             evento.preventDefault();
             alert("¡Error! Usuario o contraseña incorrectos.");
+            window.location.href = "bienvenido.html";
         }
     });
 });
