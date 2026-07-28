@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio de Sesión y Registro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h3>Iniciar Sesión</h3>
+    <form action="bienvenido.html" method="POST">
+        <div>
+            <label for="login-nombre">Nombre de usuario:</label><br>
+            <input type="text" id="login-nombre" name="nombre" required>
+        </div>
+        <br>
+        <div>
+            <label for="login-password">Contraseña:</label><br>
+            <input type="password" id="login-password" name="password" required>
+        </div>
+        <br>
+        <button type="submit">Entrar</button>
+    </form>
+
+    <hr>
+
+    <h3>Regístrate</h3>
+    <form action="#" method="POST">
+        <div>
+            <label for="reg-nombre">Nombre de usuario:</label><br>
+            <input type="text" id="reg-nombre" required>
+        </div>
+        <br>
+        <div>
+            <label for="reg-password">Contraseña:</label><br>
+            <input type="password" id="reg-password" required>
+        </div>
+        <br>
+        <button type="submit">Registrarse</button>
+    </form>
+ <script src="script.js"></script>
+</body>
+</html>
