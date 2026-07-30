@@ -2,21 +2,24 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Inicio de Sesión y Registro</title>
-  <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trailered - Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <h1>Bienvenido a Trailered</h1>
+
     <h3>Iniciar Sesión</h3>
-    <form>
+    <form action="bienvenido.html" method="GET">
         <div>
             <label for="login-nombre">Nombre de usuario:</label><br>
-            <input type="text" id="login-nombre" name="nombre" required>
+            <input type="text" id="login-nombre" required>
         </div>
         <br>
         <div>
             <label for="login-password">Contraseña:</label><br>
-            <input type="password" id="login-password" name="password" required>
+            <input type="password" id="login-password" required>
         </div>
         <br>
         <button type="submit">Entrar</button>
@@ -38,6 +41,7 @@
         <br>
         <button type="submit">Registrarse</button>
     </form>
- <script src="script.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
