@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const formularios = document.querySelectorAll("form");
-    const formLogin = formularios[0];
-    const formRegistro = formularios[1];
+    
 
     
     if (formRegistro) {
